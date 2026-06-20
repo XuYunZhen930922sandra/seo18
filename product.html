@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品詳情 | SOLE VIBE 舒步脈動</title>
+  <meta name="description" content="瀏覽商品詳情、規格與功能細節，挑選最適合您尺碼的精品鞋履。">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header></header>
+
+  <main style="padding-top: 40px;">
+    <!-- PRODUCT DETAIL SECTION -->
+    <section class="section" style="padding-top: 20px;">
+      <div class="container detail-grid">
+        <!-- Image Gallery (Left Column) -->
+        <div class="detail-img-box" id="detailImgBox">
+          <!-- Hydrated dynamically by main.js -->
+          <div style="color: var(--color-text-muted);">正在載入圖片...</div>
+        </div>
+
+        <!-- Product Content (Right Column) -->
+        <div class="detail-content">
+          <span class="product-cat" id="detailCategory" style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: var(--color-accent); display: block; margin-bottom: 12px;">分類</span>
+          <h1 id="detailTitle">正在載入商品名稱...</h1>
+          
+          <div class="detail-meta">
+            <span class="detail-price" id="detailPrice">NT$ 0</span>
+            <span class="product-rating" id="detailRating" style="font-size: 14px;"><i class="ri-star-fill"></i> 0.0</span>
+          </div>
+
+          <p class="detail-desc" id="detailDesc">正在載入描述細節...</p>
+
+          <!-- Key Highlights -->
+          <div style="margin-bottom: 30px;">
+            <h4 class="detail-section-title">特色亮點</h4>
+            <ul id="detailFeatures" style="list-style: none; font-size: 14px; color: var(--color-text-dark);">
+              <!-- Hydrated dynamically by main.js -->
+            </ul>
+          </div>
+
+          <!-- Size Selector -->
+          <div style="margin-bottom: 30px;">
+            <h4 class="detail-section-title">選擇尺寸 (歐碼/公分)</h4>
+            <div class="detail-sizes">
+              <button class="size-btn">36</button>
+              <button class="size-btn">37</button>
+              <button class="size-btn">38</button>
+              <button class="size-btn">39</button>
+              <button class="size-btn">40</button>
+              <button class="size-btn">41</button>
+              <button class="size-btn">42</button>
+              <button class="size-btn">43</button>
+              <button class="size-btn">44</button>
+              <button class="size-btn">45</button>
+            </div>
+          </div>
+
+          <!-- Action buttons -->
+          <div class="detail-actions">
+            <div class="quantity-selector">
+              <button class="qty-btn" id="qtyMinus" aria-label="減少數量">&minus;</button>
+              <input type="text" id="qtyInput" class="qty-input" value="1" readonly aria-label="購買數量">
+              <button class="qty-btn" id="qtyPlus" aria-label="增加數量">&plus;</button>
+            </div>
+            <button class="btn btn-primary btn-add-cart" id="addCartBtn">
+              <i class="ri-shopping-bag-line" style="margin-right: 8px;"></i> 加入購物車
+            </button>
+          </div>
+
+          <!-- Specifications Accordion/Table -->
+          <div style="border-top: 1px solid var(--color-border); padding-top: 30px;">
+            <h4 class="detail-section-title">產品規格</h4>
+            <table class="specs-table">
+              <tbody id="detailSpecs">
+                <!-- Hydrated dynamically by main.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOMMENDATIONS SECTION -->
+    <section class="section" style="background-color: var(--color-bg-card); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); margin-top: 60px;">
+      <div class="container">
+        <div class="section-title-wrap" style="margin-bottom: 40px;">
+          <span class="section-subtitle">Recommended</span>
+          <h2 class="section-title">您可能也會喜歡</h2>
+        </div>
+
+        <div class="product-grid" id="recommendationsGrid">
+          <!-- Hydrated dynamically by main.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="data.js"></script>
+  <script src="main.js" defer></script>
+</body>
+</html>

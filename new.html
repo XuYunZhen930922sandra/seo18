@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本季新品 | SOLE VIBE 舒步脈動</title>
+  <meta name="description" content="瀏覽 SOLE VIBE 舒步脈動本季最新發布的男女手工鞋、舒適氣墊鞋及童鞋系列。引領腳部舒壓新時尚。">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header></header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero" style="padding: 50px 0; text-align: center;">
+      <div class="container">
+        <span class="hero-badge">NEW IN • 本季新品</span>
+        <h1 class="hero-title" style="font-size: 38px; margin-bottom: 8px;">當季潮流新鞋款</h1>
+        <p class="hero-subtitle" style="margin: 0 auto; max-width: 500px;">搶先探索我們最新推出的減震機能與極致美學作品。</p>
+      </div>
+    </section>
+
+    <!-- LISTING SECTION -->
+    <section class="section">
+      <div class="container listing-layout">
+        <!-- Sidebar Filter -->
+        <aside class="filter-sidebar">
+          <div class="filter-group">
+            <h4 class="filter-title">價格範圍</h4>
+            <div class="filter-range">
+              <input type="range" id="priceRange" min="500" max="6000" step="100" value="6000" aria-label="價格區間">
+              <div class="range-labels">
+                <span>NT$ 500</span>
+                <span id="priceVal">NT$ 6,000</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="filter-group">
+            <h4 class="filter-title">品牌承諾</h4>
+            <div class="filter-list">
+              <label class="filter-item">
+                <input type="checkbox" checked disabled>
+                <span>7 天退換貨保障</span>
+              </label>
+              <label class="filter-item">
+                <input type="checkbox" checked disabled>
+                <span>100% 職人手工縫製</span>
+              </label>
+              <label class="filter-item">
+                <input type="checkbox" checked disabled>
+                <span>滿額宅配免運</span>
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Product Listings -->
+        <div>
+          <div class="listing-header">
+            <span class="results-count" id="resultsCount">正在載入商品...</span>
+            <select class="sort-select" id="sortSelect" aria-label="排序方式">
+              <option value="default">預設排序</option>
+              <option value="price-asc">價格：由低到高</option>
+              <option value="price-desc">價格：由高到低</option>
+              <option value="rating">人氣評分</option>
+            </select>
+          </div>
+
+          <div class="product-grid" id="productGrid">
+            <!-- Hydrated dynamically by main.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="data.js"></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
