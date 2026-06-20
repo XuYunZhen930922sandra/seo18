@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+    <linearGradient id="hike" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+  <ellipse cx="200" cy="295" rx="125" ry="16" fill="#92400e" opacity="0.6"/>
+  <path d="M 120,135 L 180,140 C 185,175 190,195 220,210 C 260,225 300,230 315,255 C 295,275 225,275 165,275 L 110,240 L 120,135 Z" fill="url(#hike)" filter="drop-shadow(0 5px 10px rgba(0,0,0,0.3))"/>
+  <path d="M 290,245 C 285,235 305,235 315,255 C 305,265 295,260 290,245 Z" fill="#1c1917"/>
+  <path d="M 105,270 L 320,270 L 315,285 L 295,285 L 290,290 L 270,285 L 265,290 L 245,285 L 240,290 L 220,285 L 130,285 L 125,290 L 115,285 L 105,285 Z" fill="#1c1917"/>
+  <path d="M 175,150 L 195,175 M 165,170 L 190,195 M 155,190 L 185,215 M 145,210 L 175,235" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="175" cy="150" r="3" fill="#94a3b8"/>
+  <circle cx="165" cy="170" r="3" fill="#94a3b8"/>
+  <circle cx="155" cy="190" r="3" fill="#94a3b8"/>
+  <text x="200" y="340" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold" fill="#0f172a" text-anchor="middle">Pro Trail Hiking Shoes (頞??餃控??</text>
+</svg>

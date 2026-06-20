@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fafaf9"/>
+      <stop offset="100%" stop-color="#d6d3d1"/>
+    </radialGradient>
+    <linearGradient id="leather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#1c0c02"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+  <ellipse cx="200" cy="285" rx="130" ry="15" fill="#a8a29e" opacity="0.6"/>
+  <path d="M 80,230 C 95,200 120,190 170,210 C 200,195 240,195 290,225 C 330,235 340,255 330,265 C 300,278 180,280 80,260 Z" fill="url(#leather)" filter="drop-shadow(0 5px 8px rgba(0,0,0,0.25))"/>
+  <path d="M 78,258 L 332,263 L 330,273 L 280,273 L 275,263 L 110,261 L 105,273 L 78,271 Z" fill="#0c0a09"/>
+  <path d="M 280,227 C 300,232 315,242 320,250 C 310,245 290,238 275,235 Z" fill="#ffffff" opacity="0.15"/>
+  <path d="M 160,215 L 185,230 M 150,222 L 175,237 M 140,230 L 165,245" stroke="#1c0c02" stroke-width="3" stroke-linecap="round"/>
+  <text x="200" y="340" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold" fill="#0f172a" text-anchor="middle">Classic Leather Oxford (敺瑟??桅?)</text>
+</svg>

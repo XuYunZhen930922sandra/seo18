@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="100%" stop-color="#ffe4e6"/>
+    </radialGradient>
+    <linearGradient id="slipper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+  <ellipse cx="200" cy="285" rx="115" ry="15" fill="#fecdd3" opacity="0.8"/>
+  <path d="M 100,250 C 110,225 140,210 180,225 C 220,230 270,220 295,245 C 285,268 230,275 180,275 C 120,275 105,265 100,250 Z" fill="url(#slipper)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <path d="M 230,222 C 225,200 235,190 240,210 Q 240,220 230,222 Z" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+  <path d="M 245,225 C 245,203 255,193 260,213 Q 255,223 245,225 Z" fill="#fda4af" stroke="#f43f5e" stroke-width="2"/>
+  <circle cx="265" cy="238" r="3" fill="#1e293b"/>
+  <circle cx="277" cy="242" r="3" fill="#1e293b"/>
+  <path d="M 270,244 Q 273,247 276,244" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="200" y="340" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold" fill="#0f172a" text-anchor="middle">Cozy Toddler Slippers (?摮豢郊??</text>
+</svg>

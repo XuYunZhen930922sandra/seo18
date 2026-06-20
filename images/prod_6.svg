@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </radialGradient>
+    <linearGradient id="suede" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+  <ellipse cx="200" cy="285" rx="125" ry="14" fill="#ea580c" opacity="0.4"/>
+  <path d="M 80,240 C 90,215 130,200 170,218 C 210,225 280,215 320,240 C 310,265 250,275 180,275 C 110,275 90,260 80,240 Z" fill="url(#suede)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.2))"/>
+  <path d="M 175,221 C 180,225 185,245 180,255 L 160,250 C 162,235 165,223 175,221 Z" fill="#431407"/>
+  <rect x="168" y="230" width="8" height="15" rx="2" fill="#fed7aa" transform="rotate(-15, 172, 237)"/>
+  <path d="M 80,260 C 130,274 250,274 320,258 L 318,268 C 250,282 130,282 80,268 Z" fill="#1c1917"/>
+  <text x="200" y="340" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold" fill="#0f172a" text-anchor="middle">Casual Loafers (隡?璅???</text>
+</svg>
