@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fae8ff"/>
+      <stop offset="100%" stop-color="#f5d0fe"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+  <ellipse cx="200" cy="285" rx="120" ry="16" fill="#f0abfc" opacity="0.8"/>
+  <path d="M 90,255 C 110,275 260,275 300,250 C 280,230 250,235 210,238 C 160,240 120,230 90,255 Z" fill="#1e1b4b" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.2))"/>
+  <circle cx="130" cy="262" r="6" fill="#22c55e" filter="drop-shadow(0 0 8px #22c55e)"/>
+  <circle cx="170" cy="264" r="6" fill="#eab308" filter="drop-shadow(0 0 8px #eab308)"/>
+  <circle cx="210" cy="263" r="6" fill="#a855f7" filter="drop-shadow(0 0 8px #a855f7)"/>
+  <circle cx="250" cy="258" r="6" fill="#3b82f6" filter="drop-shadow(0 0 8px #3b82f6)"/>
+  <path d="M 105,240 C 115,180 165,160 195,190 C 215,205 245,210 280,225 C 295,232 295,245 285,250 C 255,242 165,242 105,240 Z" fill="#db2777"/>
+  <path d="M 130,230 Q 170,190 220,220 Q 250,225 270,232" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 140,240 Q 180,205 210,230" fill="none" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 185,195 L 205,210 M 175,205 L 195,220" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="200" y="340" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold" fill="#0f172a" text-anchor="middle">Breathable Light-up Shoes (?怠蔗?澆???</text>
+</svg>
